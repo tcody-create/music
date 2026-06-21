@@ -439,14 +439,14 @@ button:focus-visible {
 
   .nav-links {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex-wrap: nowrap;
+    justify-content: space-between;
     gap: 6px 12px;
     font-size: 0.84rem;
   }
 
   .hero-content h1 {
-    font-size: clamp(3.1rem, 18vw, 4.4rem);
+    font-size: clamp(2.65rem, 14.5vw, 4.1rem);
   }
 
   .hero-actions,
